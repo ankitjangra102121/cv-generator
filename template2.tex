@@ -1,0 +1,75 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=0.75in, right=0.75in, top=1in, bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Set font and colors
+\usepackage{helvet}
+\renewcommand{\rmdefault}{\sfdefault}
+\definecolor{darkblue}{RGB}{0, 51, 102}
+
+% Custom title format
+\titleformat{\section}{\large\color{darkblue}\scshape\bfseries}{}{0em}{}[\titlerule]
+
+% No indentation for paragraphs
+\setlength{\parindent}{0pt}
+
+% Custom command for bold entries
+\newcommand{\resitem}[2]{
+    \textbf{#1} \hfill {#2} \\
+}
+
+% Custom command for the skills list
+\newcommand{\skills}[1]{
+    \begin{itemize}[left=0pt]
+        \item #1 
+    \end{itemize}
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE \textbf{Your Name}} \\[0.2cm]
+    Address - Your Address \\
+    email id - Your Email \\
+    Contanct No.-  Your Phone Number \\
+    \href{https://github.com/Github Profile}{Github} , \href{https://www.linkedin.com/in/LinkedIn Profile}{LinkdIn}
+\end{center}
+
+% Professional Summary
+\section*{Professional Summary}
+[Prfessionalx Summary]
+
+% Education
+\section*{Education}
+\resitem{Bachelor of Science in [Your Major]}{University Name, City, State \\ Graduation Year: GYear}
+\begin{itemize}[left=0pt]
+    \item Relevant Coursework: [Courses]
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\begin{itemize}
+    \item Expertise in skills1.
+    \item Strong competencies in skills2.
+\end{itemize}
+
+% Work Experience
+work experiencess
+
+%project
+\section*{Projects}
+projects
+
+% Certifications Section
+certificates
+
+% Professional Achievements
+\section*{Professional Achievements}
+Professionalxx accomplishments, KPIs
+
+
+\end{document}
